@@ -1,0 +1,51 @@
+.main-container
+  margin: 20px auto
+  padding: 0 20px
+  max-width: 800px
+
+.flex
+  display: flex
+  gap: 10px
+
+  &._wrap
+    flex-wrap: wrap
+
+  &._jcc
+    justify-content: center
+
+  &._jcsb
+    justify-content: center
+
+  &_aic
+    align-items: center
+
+.rows
+
+  & > .row
+    display: flex
+    justify-content: space-between
+    gap: 10px
+    padding: 10px 0
+    border-bottom: 1px solid #f2f2f2
+
+    & > div
+
+      &:first-child
+        width: 100%
+
+  &.__data-rows
+
+    & > .row
+      flex-wrap: wrap
+
+      & > div
+
+        &:first-child
+          width: auto
+          font-weight: bold
+
+.loader-wrapper
+  padding: 20px
+
+  .Loader
+    margin: 0 auto
