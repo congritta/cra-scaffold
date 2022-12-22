@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cra-scaffold/static/css/main.cd95e970.css",
+    "main.js": "/cra-scaffold/static/js/main.c6c37759.js",
+    "static/media/icons.svg": "/cra-scaffold/static/media/icons.c6ecbc1a28ee210a278377674d5547ae.svg",
+    "index.html": "/cra-scaffold/index.html",
+    "main.cd95e970.css.map": "/cra-scaffold/static/css/main.cd95e970.css.map",
+    "main.c6c37759.js.map": "/cra-scaffold/static/js/main.c6c37759.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd95e970.css",
+    "static/js/main.c6c37759.js"
+  ]
+}
