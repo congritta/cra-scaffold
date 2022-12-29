@@ -15,8 +15,10 @@ export const store = configureStore({
   }),
 
   preloadedState: load(),
-  enhancers: [applyMiddleware(save())]
+  enhancers: [applyMiddleware(save({
+    ignoreStates: ["notifications"]
+  }))]
 });
 
-export type RootState = ReturnType<typeof store.getState>
-export type AppDispatch = typeof store.dispatch
+export type RootState = ReturnType<typeof store.getState>;
+export type AppDispatch = typeof store.dispatch;

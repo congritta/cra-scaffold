@@ -6,6 +6,7 @@
   max-width: 350px
   max-height: 100%
   overflow: auto
+  transition: padding 0
 
   @media(max-width: 450px)
     max-width: unset
@@ -17,6 +18,9 @@
 
     @media(max-width: 450px)
       padding: 20px
+
+  &:not(._padded)
+    transition-delay: .27s
 
   .notification
     position: relative
